@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028377, g: 0.22571409, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &757704851
 Prefab:
@@ -234,6 +234,80 @@ Prefab:
       objectReference: {fileID: 1834953415}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3477a06d8b866de4b8eaad3acb492f9e, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1694626002
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2300010, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -46.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 400232, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300016, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c8434ba762761f4990972d6e5a9760d, type: 2}
+    - target: {fileID: 2300010, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100010, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+    - target: {fileID: 2300010, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c8434ba762761f4990972d6e5a9760d, type: 2}
+    - target: {fileID: 2300010, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100008, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 688a7467d94800e4a8bdf66e960b7416, type: 3}
   m_IsPrefabParent: 0
 --- !u!114 &1834953415 stripped
 MonoBehaviour:
